@@ -33,14 +33,3 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     return result;
 }
   
-int main() {
-    char *strs[] = {"flower", "float", "flight"};
-    int strsSize = sizeof(strs) / sizeof(strs[0]);
-
-    char *prefix = longestCommonPrefix(strs, strsSize);
-    printf("Longest Common Prefix: %s\n", prefix);
-
-    free(prefix); // 释放动态分配的内存
-
-    return 0;
-}
