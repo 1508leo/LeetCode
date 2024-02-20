@@ -1,3 +1,4 @@
+/* https://leetcode.com/problems/valid-parentheses/description/ */
 #include <ctype.h>
 #include <stdbool.h>
 #include <string.h>
