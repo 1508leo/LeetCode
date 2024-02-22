@@ -1,3 +1,4 @@
+/* https://leetcode.com/problems/powx-n/ */
 double calculate(double x, int n){ // use recurrence way, O(logn)
     if(n == 1)
         return x;
